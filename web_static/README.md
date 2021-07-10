@@ -47,13 +47,13 @@ Layout:
     - text Holberton School center vertically and horizontally
     - always at the bottom at the page
 
-**1. Head styling:**
+**[1. Head styling:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/1-index.html)**
 Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
 
-**2. CSS files:**
+**[2. CSS files:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/2-index.html)**
 Write an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
 
-**3. Zoning done!:**
+**[3. Zoning done!:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/3-index.html)**
 Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
 Layout:
 * Common:
@@ -77,7 +77,7 @@ Layout:
     - text Holberton School center vertically and horizontally
     - always at the bottom at the page
 
-**4. Search!:**
+**[4. Search!:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/4-index.html)**
 Write an HTML page that displays a header, footer and a filters box with a search button.
 
 Layout: (based on 3-index.html)
@@ -109,7 +109,7 @@ Layout: (based on 3-index.html)
     - center vertically and at 30px of the right border
     - change opacity to 90% when the mouse is on the button
 
-**5. More filters:**
+**[5. More filters:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/5-index.html)**
 Write an HTML page that displays a header, footer and a filters box.
 
 Layout: (based on 4-index.html)
@@ -130,7 +130,7 @@ Layout: (based on 4-index.html)
         - font size: 14px
         - text with fake contents
 
-**6. It's (h)over:**
+**[6. It's (h)over:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/6-index.html)**
 Write an HTML page that displays a header, footer and a filters box with dropdown.
 
 Layout: (based on 5-index.html)
@@ -148,7 +148,7 @@ Layout: (based on 5-index.html)
         - state -> cities
         - state name must be display in a h2 tag (font size 16px)
 
-**7. Display results:**
+**[7. Display results:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/7-index.html)**
 Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
 Layout: (based on 6-index.html)
@@ -171,7 +171,7 @@ Layout: (based on 6-index.html)
             - font size: 30px
             - center horizontally
 
-**8. More details:**
+**[8. More details:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/8-index.html)**
 Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
 
 Layout: (based on 7-index.html)
