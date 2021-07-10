@@ -30,7 +30,7 @@
 * You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots
 
 ## Tasks
-**0. Inline styling:**
+**[0. Inline styling:](https://github.com/dianaparr/AirBnB_clone/blob/main/web_static/0-index.html)**
 Write an HTML page that displays a header and a footer.
 Layout:
 * Body:
