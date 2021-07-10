@@ -84,6 +84,7 @@ button:hover {
     list-style-type: none;
     padding-top: 13%;
     padding-bottom: 13%;
+    position: relative;
 }
 
 .locations .popover h2 {
