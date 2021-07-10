@@ -1,0 +1,94 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 30px; maybe responsive solution*/
+}
+
+.contains {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.places h1 {
+    text-align: top left;
+    font-size: 30px;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px #FF5A5F solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.price_by_night {
+    position: absolute;
+}
+
+.price_home {
+    color: #FF5A5F;
+    border: 4px #FF5A5F solid;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    left: 320px;
+    bottom: 4px;
+    margin: 0;
+}
+
+.price_tiny {
+    color: #FF5A5F;
+    border: 4px #FF5A5F solid;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    left: 320px;
+    bottom: 4px;
+    margin: 0;
+}
+
+.price_suite {
+    color: #FF5A5F;
+    border: 4px #FF5A5F solid;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    left: 320px;
+    bottom: 4px;
+    margin: 0;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px #DDDDDD solid;
+    border-bottom: 1px #DDDDDD solid;
+    display: flex;
+    justify-content: center;
+}
+
+.information div {
+    width: 100px;
+    
+}
