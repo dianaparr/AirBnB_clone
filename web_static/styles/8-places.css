@@ -1,6 +1,8 @@
 .places {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;
     /* padding-left: 30px; maybe responsive solution*/
 }
 
@@ -19,6 +21,7 @@
 
 article {
     width: 390px;
+    height: 500px;
     padding: 20px;
     margin: 20px;
     border: 1px #FF5A5F solid;
@@ -26,6 +29,7 @@ article {
     text-align: center;
     margin-top: -3px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 article h2 {
@@ -36,9 +40,23 @@ article h2 {
 
 .price_by_night {
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: #FF5A5F;
+    border: 4px #FF5A5F solid;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    right: 7%;
+    top: 2%;
 }
 
-.price_home {
+/* .price_home {
     color: #FF5A5F;
     border: 4px #FF5A5F solid;
     min-width: 60px;
@@ -81,13 +99,14 @@ article h2 {
     left: 320px;
     bottom: 4px;
     margin: 0;
-}
+} */
 
 .information {
     height: 80px;
     border-top: 1px #DDDDDD solid;
     border-bottom: 1px #DDDDDD solid;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 25px;
 }
