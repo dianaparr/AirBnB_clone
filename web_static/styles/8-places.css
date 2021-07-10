@@ -1,7 +1,7 @@
 .places {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     z-index: -1;
     /* padding-left: 30px; maybe responsive solution*/
 }
@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    align-items: flex;
 }
 
 .places h1 {
@@ -21,7 +21,6 @@
 
 article {
     width: 390px;
-    height: 500px;
     padding: 20px;
     margin: 20px;
     border: 1px #FF5A5F solid;
@@ -36,6 +35,7 @@ article h2 {
     font-size: 30px;
     text-align: center;
     margin-top: 0;
+    margin-bottom: 36px;
 }
 
 .price_by_night {
@@ -55,51 +55,6 @@ article h2 {
     right: 7%;
     top: 2%;
 }
-
-/* .price_home {
-    color: #FF5A5F;
-    border: 4px #FF5A5F solid;
-    min-width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 30px;
-    border-radius: 50%;
-    position: absolute;
-    text-align: center;
-    left: 320px;
-    bottom: 4px;
-    margin: 0;
-}
-
-.price_tiny {
-    color: #FF5A5F;
-    border: 4px #FF5A5F solid;
-    min-width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 30px;
-    border-radius: 50%;
-    position: absolute;
-    text-align: center;
-    left: 320px;
-    bottom: 4px;
-    margin: 0;
-}
-
-.price_suite {
-    color: #FF5A5F;
-    border: 4px #FF5A5F solid;
-    min-width: 60px;
-    height: 60px;
-    line-height: 60px;
-    font-size: 30px;
-    border-radius: 50%;
-    position: absolute;
-    text-align: center;
-    left: 320px;
-    bottom: 4px;
-    margin: 0;
-} */
 
 .information {
     height: 80px;
